@@ -5,8 +5,11 @@
 }
 
 body {
+	min-height: 100%;
+	background-color: #e22777;
 }
 
+/* TODO: uždėti logo visited žymėjimą */
 #logo {
 	max-width: 65px;
 }
@@ -24,21 +27,18 @@ footer {
 }
 
 h6 {
-	font-size: 12px;
+	font-size: 0.75em;
 }
 
 .top-items {
 	flex: 1;
+	text-align: right;
 	vertical-align: top;
 	margin-top: 0 !important;
 }
 
-.top-items {
-	text-align: right;
-}
-
 .nav-link:hover {
-	background: #01dd12;
+	background-color: #01dd12;
 }
 
 .nav.nav-pills > li {
@@ -51,7 +51,7 @@ h6 {
 }
 
 .dropdown-menu:hover {
-	background: #01dd12;
+	background-color: #01dd12;
 }
 
 .nav-pills {
@@ -65,4 +65,15 @@ h6 {
 	/* opacity: 0.75; */
 }
 
-/* TODO: Toogle su ryškiai žalia */
+/* TODO: karuselės rodyklės */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	width: 5em;
+	height: 5em;
+	border-radius: 100%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+	background-color: #01dd12;
+}
