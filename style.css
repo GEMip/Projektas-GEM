@@ -2,11 +2,12 @@
 	font-family: 'Cinzel Decorative', cursive;
 	font-family: 'El Messiri', sans-serif;
 	font-family: 'Emilys Candy', cursive;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-	min-height: 100%;
-	background-color: #e22777;
+	display: block;
+	/* background-color: #e22777; */
 }
 
 /* TODO: uždėti logo visited žymėjimą */
@@ -15,9 +16,9 @@ body {
 }
 
 header {
+	width: 100%;
 	display: flex;
 	background-color: #e22777;
-
 	/* opacity: 0.75; */
 }
 
