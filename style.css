@@ -37,12 +37,21 @@ h6 {
 	text-align: right;
 }
 
+.nav-link:hover {
+	background: #01dd12;
+}
+
 .nav.nav-pills > li {
 	float: none;
 	display: inline-block;
 }
 
-img {
+.dropdown-menu {
+	background-color: #8f29fc;
+}
+
+.dropdown-menu:hover {
+	background: #01dd12;
 }
 
 .nav-pills {
