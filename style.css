@@ -1,0 +1,159 @@
+* {
+	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'El Messiri', sans-serif;
+	font-family: 'Emilys Candy', cursive;
+	font-family: 'Times New Roman', Times, sans-serif;
+}
+
+body {
+	display: block;
+	/* background-color: #e22777; */
+}
+
+/* TODO: uždėti logo visited žymėjimą */
+#logo {
+	width: 65px;
+	transition-duration: 0.5s;
+}
+#logo:hover {
+	width: 100px;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #e22777;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	/* opacity: 0.75; */
+}
+
+footer {
+	background-color: #e22777;
+	/* opacity: 0.75; */
+}
+
+h6 {
+	font-size: 0.75em;
+}
+
+.carousel-item {
+	height: 80vh;
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.top-items {
+	flex: 1;
+	text-align: right;
+	vertical-align: top;
+	margin-top: 0 !important;
+}
+.nav {
+	width: 100%;
+}
+.nav-link {
+	color: white;
+}
+.nav-link:hover {
+	background-color: #01dd12;
+	color: red;
+}
+
+.nav.nav-pills > li {
+	float: none;
+	display: inline-block;
+}
+
+.dropdown-menu {
+	background-color: #8f29fc;
+	z-index: 1;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.dropdown-item:hover {
+	color: #01dd12;
+	background-color: #8f29fc;
+}
+
+.nav-pills {
+	/* color: white; */
+	background-color: #8f29fc;
+	/* opacity: 0.75; */
+}
+
+.vertical {
+	background-color: #8f29fc;
+	/* opacity: 0.75; */
+}
+
+/* TODO: karuselės rodyklės */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 100% 100%;
+	border-radius: 100%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+	background-color: #01dd12;
+}
+.carousel-control-next,
+.carousel-control-prev {
+	z-index: 0;
+}
+
+.Prekes {
+	background: rebeccapurple;
+	border: 10px dashed #01dd12;
+	border-radius: 25px;
+	color: gold;
+	width: 30%;
+	font-size: 1.4em;
+	font: 1.5em sCopperplate, Papyrus, fantasy;
+	font-style: italic;
+}
+.neaktyvus {
+	background: gold;
+	color: rebeccapurple;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+.rusys {
+	display: block;
+	background: greenyellow;
+	border: 5px dotted red;
+	color: blueviolet;
+	font-size: 1.4em;
+	font-style: italic;
+	width: 15%;
+	margin: 5px;
+}
+.parinkta {
+	background: blue;
+	color: yellow;
+	font-size: 2.3em;
+	font-weight: bold;
+	box-shadow: 0 0 0 0 greenyellow, 20px 20px 20px 20px blueviolet;
+	margin: 15px 5px;
+
+}
+.meinas1 {
+	background-image: repeating-radial-gradient(red, yellow 10%, blue 15%, green 15%);
+}
+.meinas2 {
+	background-image: repeating-radial-gradient(red, yellow, blue, green);
+}.meinas3 {
+	background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
