@@ -1,115 +1,143 @@
 * {
-	font-family: 'Cinzel Decorative', cursive;
-	font-family: 'El Messiri', sans-serif;
-	font-family: 'Emilys Candy', cursive;
-	font-family: 'Times New Roman', Times, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Redressed', cursive;
+    /* font-family: 'Emilys Candy', cursive; */
+    /* font-family: 'Times New Roman', Times, sans-serif; */
+    /* // Alternatyvos
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+    font-size: 18px;
 }
 
 body {
-	display: block;
-	/* background-color: #e22777; */
+    display: block;
+    /* background-color: #e22777; */
 }
 
 /* TODO: uždėti logo visited žymėjimą */
 #logo {
-	width: 65px;
-	transition-duration: 0.5s;
+    width: 65px;
+    transition-duration: 0.5s;
 }
 #logo:hover {
-	width: 100px;
+    width: 100px;
 }
 
 header {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	background-color: #e22777;
-	position: sticky;
-	top: 0px;
-	z-index: 1;
-	/* opacity: 0.75; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e22777;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    /* opacity: 0.75; */
 }
 
 footer {
-	background-color: #e22777;
-	/* opacity: 0.75; */
+    background-color: #e22777;
+    /* opacity: 0.75; */
 }
 
 h6 {
-	font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 .carousel-item {
-	height: 80vh;
-	width: 100%;
-	object-fit: cover;
-	overflow: hidden;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .top-items {
-	flex: 1;
-	text-align: right;
-	vertical-align: top;
-	margin-top: 0 !important;
+    flex: 1;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 0 !important;
 }
 .nav {
-	width: 100%;
+    width: 100%;
 }
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.far,
+.fa-bars {
+    color: white;
+}
+
 .nav-link {
-	color: white;
+    color: white;
 }
+
 .nav-link:hover,
 .nav-link:focus {
-	color: #01dd12;
+    color: #01dd12;
 }
 
 .nav.nav-pills > li {
-	float: none;
-	display: inline-block;
+    float: none;
+    display: inline-block;
 }
 
 .dropdown-menu {
-	background-color: #8f29fc;
-	z-index: 1;
+    background-color: #8f29fc;
+    z-index: 1;
 }
 
 .dropdown-item {
-	color: white;
+    color: white;
 }
 
 .dropdown-item:hover {
-	color: #01dd12;
-	background-color: #8f29fc;
+    color: #01dd12;
+    background-color: #8f29fc;
 }
 
 .nav-pills {
-	/* color: white; */
-	background-color: #8f29fc;
-	/* opacity: 0.75; */
+    /* color: white; */
+    background-color: #8f29fc;
+    /* opacity: 0.75; */
 }
 
 .vertical {
-	background-color: #8f29fc;
-	/* opacity: 0.75; */
+    background-color: #8f29fc;
+    /* opacity: 0.75; */
 }
 
 /* TODO: karuselės rodyklės */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-	display: inline-block;
-	width: 3rem;
-	height: 3rem;
-	background-repeat: no-repeat;
-	background-position: 50%;
-	background-size: 100% 100%;
-	border-radius: 100%;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    border-radius: 100%;
 }
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
-	background-color: #01dd12;
+    background-color: #01dd12;
 }
 .carousel-control-next,
 .carousel-control-prev {
-	z-index: 0;
+    z-index: 0;
 }
+
+/* TODO: media queries */
+/* @media (max-width: 500px) {
+    body {
+        color: #01dd12;
+    }
+} */
