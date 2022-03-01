@@ -78,8 +78,12 @@ h1 {
     color: #8f29fc;
 }
 
-footer {
+h6 {
     background-color: #e22777;
+}
+
+.footer-menu {
+    background-color: #8f29fc;
     /* opacity: 0.75; */
 }
 
@@ -145,11 +149,6 @@ footer {
 
 .nav-pills {
     /* color: white; */
-    background-color: #8f29fc;
-    /* opacity: 0.75; */
-}
-
-.vertical {
     background-color: #8f29fc;
     /* opacity: 0.75; */
 }
