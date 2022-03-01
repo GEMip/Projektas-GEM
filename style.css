@@ -111,6 +111,8 @@ footer {
     /* opacity: 0.75; */
 }
 
+.hor li {display: inline-block}
+
 /* TODO: karuselės rodyklės */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
