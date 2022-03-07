@@ -155,3 +155,41 @@ h6 {
     width: 75px; */
     color: #8f29fc;
 }
+.tinklelis img{
+    margin: 0;
+}
+.hoveris {
+    position: relative;
+    width: 20%;
+  }
+.images {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.overlays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+  }
+.hoveris:hover .overlays {
+    opacity: 1;
+  }
+  .textas{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
